@@ -41,7 +41,7 @@ export default function Add() {
           </div>
         </div>
         <button className="text-sm rounded-3xl py-2 px-8 bg-primary text-white ">
-          AGREGAR AL CARRO
+          AÑADIR AL CARRO
         </button>
       </div>
     </div>

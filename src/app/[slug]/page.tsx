@@ -24,33 +24,33 @@ export default function SinglePage() {
           <div className="flex gap-28">
             <ul className="text-sm">
               <li>
-                <span>Forma:</span>Agatado
+                <span>Forma: </span>Agatado
               </li>
               <li>
-                <span>Genero:</span>Mujer
+                <span>Genero: </span>Mujer
               </li>
               <li>
-                <span>Polarizado:</span>No
+                <span>Polarizado: </span>No
               </li>
               <li>
-                <span>Color Montura:</span>Negro
+                <span>Color Montura: </span>Negro
               </li>
               <li>
-                <span>Color de Luna:</span>Gris
+                <span>Color de Luna: </span>Gris
               </li>
             </ul>
             <ul className="text-sm">
               <li>
-                <span>Varilla:</span>140
+                <span>Varilla: </span>140
               </li>
               <li>
-                <span>Puente:</span>17
+                <span>Puente: </span>17
               </li>
               <li>
-                <span>Espejado:</span>No
+                <span>Espejado: </span>No
               </li>
               <li>
-                <span>Calibre:</span>57
+                <span>Calibre: </span>57
               </li>
             </ul>
           </div>
