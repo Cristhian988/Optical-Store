@@ -23,9 +23,9 @@ export default function Navbar() {
           </div>
           {/* Links */}
           <div className="hidden md:flex items-center gap-10 font-medium text-lg">
-            <Link href="/">Lentes de Sol</Link>
-            <Link href="/">Lentes Oftálmicos</Link>
-            <Link href="/">Lentes de Contacto</Link>
+            <Link href="/sunglasses">Lentes de Sol</Link>
+            <Link href="/oftaglasses">Lentes Oftálmicos</Link>
+            <Link href="/contactlens">Lentes de Contacto</Link>
             <Link href="/">Créditos</Link>
           </div>
           {/* Icons */}

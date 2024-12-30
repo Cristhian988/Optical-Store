@@ -1,10 +1,8 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import banner1 from "../../public/banner/banner1.jpg";
-import banner2 from "../../public/banner/banner2.jpg";
-import banner3 from "../../public/banner/banner3.jpg";
 import Image from "next/image";
+import { banners } from "@/app/all_products";
 
 export default function MainSlider() {
   const responsive = {
@@ -22,23 +20,6 @@ export default function MainSlider() {
     },
   };
 
-  const banners = [
-    {
-      id: 1,
-      image: banner1,
-      alt: "First Banner",
-    },
-    {
-      id: 2,
-      image: banner2,
-      alt: "Second Banner",
-    },
-    {
-      id: 3,
-      image: banner3,
-      alt: "Third Banner",
-    },
-  ];
   return (
     <div className="w-full">
       <Carousel
