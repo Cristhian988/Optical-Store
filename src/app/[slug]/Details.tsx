@@ -41,37 +41,17 @@ export default function Details({ slug }: { slug: string }) {
           <div className="text-lg">
             <h4 className="font-medium mb-4">Características del producto</h4>
             <div className="flex gap-28">
-              <ul className="text-sm">
-                <li>
-                  <span>Forma: </span>Agatado
-                </li>
-                <li>
-                  <span>Genero: </span>Mujer
-                </li>
-                <li>
-                  <span>Polarizado: </span>No
-                </li>
-                <li>
-                  <span>Color Montura: </span>Negro
-                </li>
-                <li>
-                  <span>Color de Luna: </span>Gris
-                </li>
-              </ul>
-              <ul className="text-sm">
-                <li>
-                  <span>Varilla: </span>140
-                </li>
-                <li>
-                  <span>Puente: </span>17
-                </li>
-                <li>
-                  <span>Espejado: </span>No
-                </li>
-                <li>
-                  <span>Calibre: </span>57
-                </li>
-              </ul>
+              <p className="text-sm">
+                Nuestros lentes están diseñados para ofrecer estilo, comodidad y
+                funcionalidad. Los marcos están fabricados con materiales de
+                alta calidad como plástico, metal, titanio o acetato, mientras
+                que las lentes están disponibles en opciones de policarbonato,
+                cristal o materiales orgánicos, todos resistentes y duraderos.
+                Contamos con una amplia variedad de diseños, desde estilos
+                clásicos como aviador o redondo, hasta modernos como cateye u
+                ovalado, disponibles en diversos colores para adaptarse a
+                cualquier preferencia.
+              </p>
             </div>
           </div>
           <div className="h-[2px] bg-gray-100" />

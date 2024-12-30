@@ -30,7 +30,6 @@ export default function Navbar() {
           </div>
           {/* Icons */}
           <div className="flex items-center justify-between gap-8">
-            {/* <SearchBar /> */}
             {/* <NavIcons /> */}
           </div>
         </div>
