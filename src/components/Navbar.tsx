@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Menu from "./Menu";
+import NavIcons from "./NavIcons";
 
 export default function Navbar() {
   return (
@@ -30,7 +31,7 @@ export default function Navbar() {
           </div>
           {/* Icons */}
           <div className="flex items-center justify-between gap-8">
-            {/* <NavIcons /> */}
+            <NavIcons />
           </div>
         </div>
       </div>

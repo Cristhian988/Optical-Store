@@ -28,7 +28,6 @@ export default function SliderSunGlass() {
   const products = all_products.filter(
     (product) => product.category === "SunGlasses"
   );
-  console.log(products);
 
   return (
     <div className="container mx-auto py-14">

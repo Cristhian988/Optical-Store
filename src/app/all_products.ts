@@ -55,6 +55,7 @@ export const all_products = [
     description: "0VE4464 Negro Hombre",
     image: SunGlasses1,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 2,
@@ -63,6 +64,7 @@ export const all_products = [
     description: "PR 13ZS Negro Unisex",
     image: SunGlasses2,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 3,
@@ -71,6 +73,7 @@ export const all_products = [
     description: "VE4459 Havana Unisex",
     image: SunGlasses3,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 4,
@@ -79,6 +82,7 @@ export const all_products = [
     description: "RB8313 Gris Hombre",
     image: SunGlasses4,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 5,
@@ -87,6 +91,7 @@ export const all_products = [
     description: "J84150 Café Mujer",
     image: SunGlasses5,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 6,
@@ -95,6 +100,7 @@ export const all_products = [
     description: "RA5286U Crema Mujer",
     image: SunGlasses6,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 7,
@@ -103,6 +109,7 @@ export const all_products = [
     description: "BV8255B Negro Unisex",
     image: SunGlasses7,
     category: "SunGlasses",
+    quantity: 1,
   },
   {
     id: 8,
@@ -111,6 +118,7 @@ export const all_products = [
     description: "BV6176 Dorado Mujer",
     image: SunGlasses8,
     category: "SunGlasses",
+    quantity: 1,
   },
 
   {
@@ -120,6 +128,7 @@ export const all_products = [
     description: "PR 09ZV Negro Mujer",
     image: OftaGlasses1,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 10,
@@ -128,6 +137,7 @@ export const all_products = [
     description: "DG5026 Negro Mujer",
     image: OftaGlasses2,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 11,
@@ -136,6 +146,7 @@ export const all_products = [
     description: "P91187 Plateado Hombre",
     image: OftaGlasses3,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 12,
@@ -144,6 +155,7 @@ export const all_products = [
     description: "RX5421 Negro Unisex",
     image: OftaGlasses4,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 13,
@@ -152,6 +164,7 @@ export const all_products = [
     description: "0OX3248 Seller Bronce Hombre",
     image: OftaGlasses5,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 14,
@@ -160,6 +173,7 @@ export const all_products = [
     description: "GN1005 Negro Unisex",
     image: OftaGlasses6,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 15,
@@ -168,6 +182,7 @@ export const all_products = [
     description: "PR 02ZV Burdeo Mujer",
     image: OftaGlasses7,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 16,
@@ -176,6 +191,7 @@ export const all_products = [
     description: "VE1264 Negro Hombre",
     image: OftaGlasses8,
     category: "OftaGlasses",
+    quantity: 1,
   },
   {
     id: 17,
@@ -184,6 +200,7 @@ export const all_products = [
     description: "1-DAY ACUVUE® MOIST with LACREON®",
     image: ContactLens1,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 18,
@@ -192,6 +209,7 @@ export const all_products = [
     description: "1-Day Acuvue Moist Astigmatismo con Lacreon",
     image: ContactLens2,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 19,
@@ -200,6 +218,7 @@ export const all_products = [
     description: "Dailies ®Aqua Comfort Plus",
     image: ContactLens3,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 20,
@@ -208,6 +227,7 @@ export const all_products = [
     description: "Vistasoft® Plus Toric",
     image: ContactLens4,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 21,
@@ -216,6 +236,7 @@ export const all_products = [
     description: "Air Optix ® Plus HydraGlyde ®",
     image: ContactLens5,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 22,
@@ -224,6 +245,7 @@ export const all_products = [
     description: "Fresh Look® Color Blends Gris",
     image: ContactLens6,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 23,
@@ -232,6 +254,7 @@ export const all_products = [
     description: "ACUVUE® OASYS with HYDRACLEAR® PLUS",
     image: ContactLens7,
     category: "ContactLens",
+    quantity: 1,
   },
   {
     id: 24,
@@ -240,5 +263,6 @@ export const all_products = [
     description: "Air Optix Color Miel",
     image: ContactLens8,
     category: "ContactLens",
+    quantity: 1,
   },
 ];

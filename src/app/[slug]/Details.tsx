@@ -11,7 +11,6 @@ export default function Details({ slug }: { slug: string }) {
     for (let i = 0; i < all_products.length; i++) {
       if (Number(slug) === all_products[i].id) {
         setData(all_products[i]);
-        console.log(all_products[i]);
         break;
       }
     }
@@ -34,7 +33,7 @@ export default function Details({ slug }: { slug: string }) {
           <p>{data?.description}</p>
           <div className="h-[2px] bg-gray-100" />
           <div className="flex flex-col gap-3">
-            <h2 className="font-medium text-2xl">{data?.price}</h2>
+            <h2 className="font-medium text-2xl">S/. {data?.price}</h2>
             <small className="text-gray-500">SKU 8056597717885</small>
           </div>
           <div className="h-[2px] bg-gray-100" />

@@ -28,7 +28,6 @@ export default function SliderContactLens() {
   const products = all_products.filter(
     (product) => product.category === "ContactLens"
   );
-  console.log(products);
 
   return (
     <div className="container mx-auto py-14">

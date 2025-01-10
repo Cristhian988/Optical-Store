@@ -1,7 +1,10 @@
 "use client";
-import React, { useState } from "react";
+import { CartContext } from "@/features/ContextProvider";
+import React, { useContext, useState } from "react";
 
-export default function Add() {
+export default function Add({ id, name, price, description, image }) {
+  const { dispatch } = useContext(CartContext);
+
   const [quantity, setQuantity] = useState(1);
 
   const stock = 4;
@@ -40,7 +43,15 @@ export default function Add() {
             <br /> No te lo pierdas!
           </div>
         </div>
-        <button className="text-sm rounded-3xl py-2 px-8 bg-primary text-white ">
+        <button
+          className="text-sm rounded-3xl py-2 px-8 bg-primary text-white"
+          onClick={() =>
+            dispatch({
+              type: "Add",
+              product: { id, name, price, description, image },
+            })
+          }
+        >
           AÑADIR AL CARRO
         </button>
       </div>

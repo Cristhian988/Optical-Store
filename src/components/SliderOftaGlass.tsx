@@ -28,7 +28,6 @@ const responsive = {
 const products = all_products.filter(
   (product) => product.category === "OftaGlasses"
 );
-console.log(products);
 
 export default function SliderOftaGlass() {
   return (
